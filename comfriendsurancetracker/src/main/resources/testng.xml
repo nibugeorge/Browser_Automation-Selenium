@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="1">
+    <test name="Test1">
+        <classes>
+            <class name="Tests.AccountTests" />
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="Test2">
+        <classes>
+            <class name="Tests.CategoryTests" />
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="Test3">
+        <classes>
+            <class name="Tests.ExpenseTests" />
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="Test4">
+        <classes>
+            <class name="Tests.StatisticsTests" />
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="Test5">
+        <classes>
+            <class name="Tests.EditAccountTests" />
+        </classes>
+    </test> <!-- Test -->
+
+
+</suite> <!-- Suite -->
